@@ -27,6 +27,7 @@ ul{
 .animation{
     height: 80px;
     width: 80px;
+    background-color: blue;
     animation: animated 4s ease-in-out infinite;
  }
  @keyframes animated{
@@ -50,4 +51,4 @@ ul{
         transform:translate(0,200px);
         background-color: blue;
     }
- } */
+ }
