@@ -27,8 +27,8 @@ ul{
 .animation{
     height: 80px;
     width: 80px;
-    background-color: blue;
     animation: animated 4s ease-in-out infinite;
+    animation-delay: 0;
  }
  @keyframes animated{
     0%{
