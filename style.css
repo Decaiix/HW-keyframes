@@ -1,0 +1,53 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,p{
+    margin: 0;
+}
+img{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.qwe{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-45%,-30%);
+}
+.animation{
+    height: 80px;
+    width: 80px;
+    animation: animated 4s ease-in-out infinite;
+ }
+ @keyframes animated{
+    0%{
+        transform: translate(0,200px);
+        background-color:blue;
+    }
+    25%{
+        transform: translate(200px,200px);
+        background-color: green;
+    }
+    50%{
+        transform:translate(200px,0px);
+        background-color: yellow;
+    }
+    75%{
+        transform:translate(0,0);
+        background-color: red;
+    }
+    100%{
+        transform:translate(0,200px);
+        background-color: blue;
+    }
+ } */
